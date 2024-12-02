@@ -1,5 +1,5 @@
 {
-  "name": "AOC",
+  "name": "aoc",
   "version": "1.0.0",
   "description": "Just a place to store my Advent of Code solutions",
   "scripts": {
@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@total-typescript/tsconfig": "^1.0.4",
