@@ -4,3 +4,7 @@ export const readCSV = (filePath: string): number[][] => {
   const data = fs.readFileSync(filePath, "utf8")
   return data.split("\n").map((line) => line.trim().split(/\s+/).map(Number))
 }
+
+export const readTxt = (filePath: string): string => {
+  return fs.readFileSync(filePath, "utf8")
+}
