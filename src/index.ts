@@ -1,4 +1,4 @@
-import { allOfDay5 } from "./days/day5"
+import { allOfDay6 } from "./days/day6"
 
 // console.log("day 1 part 1:", day1part1())
 // console.log("day 1 part 2:", day1part2())
@@ -12,4 +12,6 @@ import { allOfDay5 } from "./days/day5"
 // console.log("day 4 part 1:", day4part1())
 // console.log("day 4 part 2:", day4part2())
 
-console.log("day 5", allOfDay5())
+// console.log("day 5", allOfDay5())
+
+console.log("day 6", allOfDay6())
