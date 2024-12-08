@@ -1,3 +1,3 @@
-import { allOfDay7 } from "./days/day7"
+import { allOfDay8 } from "./days/day8"
 
-console.log("day 7", allOfDay7())
+console.log(allOfDay8())
